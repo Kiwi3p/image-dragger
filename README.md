@@ -1,10 +1,8 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+# SVG IMAGE DRAGGER
+<h1>To start, run NPM INSTALL, then NPM START</h1>
+<h2>Have fun :)</h2>
+<h3>-Jack</h3>
+<br>
 
 ### `npm start`
 
