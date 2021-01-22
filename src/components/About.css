@@ -1,0 +1,53 @@
+.about-me {
+    background-color: #ADB2D3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    padding: 5%;
+    animation: fadein 2s;
+}
+
+.about-all {
+    background-color: #ADB2D3;
+    height: 200px; 
+}
+
+.description-about {
+    color: #ffffff;
+    font-size: 1.3em;
+    height: 270px;
+
+}
+
+.text-content-about {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.text-content-about h1 {
+    font-size: 3.5em;
+}
+
+@media screen and (max-width: 960px) {
+
+    .about-me {
+        background-color: #ADB2D3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        padding: 5%;
+    }
+
+    .description-about {
+        font-size: 1em;
+    }
+
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  background-color: #ADB2D3;
+  height: 1000px
+}
+
+.all-canvas{
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.canvas {
+  background-color: #9C7CA5;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 30px auto;
+  width: 600px;
+  height: 300px;
+  z-index: 1;
+}
+
+.auto-complete{
+  margin: 0px 0 0px 0px;
+  z-index: 2;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  margin: 10px 40%;
+}
+
+.auto-complete input {
+border-radius: 25px;
+  border: 2px solid #896279;
+  padding: 20px;
+  width: 200px;
+  height: 3px;
+}
+
+.results {
+  background-color: white;
+}
+
+.results {
+  overflow: scroll;
+  height: 200px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 25px;
+  border: 2px solid #896279;
+  margin: 6px -173px;
+  padding: 160px 0 0 0;
+  transform: scale(0.7);
+}
+
+.user {
+  width: 50px;
+}

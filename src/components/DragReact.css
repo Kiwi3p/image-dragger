@@ -1,0 +1,19 @@
+.lazy {
+    transition: opacity 0.3s;
+}
+
+
+.user {
+    flex: 1 0 21%; /* explanation below */
+  margin: 5px;
+  height: 100px;
+}
+
+.all-canvas {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+
